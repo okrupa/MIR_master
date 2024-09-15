@@ -7,7 +7,6 @@ n_support: 5
 n_query: 10
 n_unlabeled: 10
 n_distractor: 0
-n_unlabeled_distractor: 0
 n_unlabeled_distractor: 5
 n_train_episodes: 800
 n_val_episodes: 50

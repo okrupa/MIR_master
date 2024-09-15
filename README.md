@@ -19,7 +19,7 @@ To provide labels for audio files, go to the *src* folder and call the following
 ```
 cd src
 predict.py --config_path config.yaml --model_path {.\trained_models\choosen_model.ckpt}
-e.g. predict.py --config_path config.yaml --model_path .\trained_models\MUSIC.ckpt
+e.g. predict.py --config_path config.yaml --model_path .\trained_models\example_MUSIC.ckpt
 ```
 
 All cofiguration variables are located in the ***config.yaml*** file. 

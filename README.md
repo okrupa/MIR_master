@@ -7,6 +7,8 @@ Master thesis "Application of semi-supervised learning in prototypical networks 
 
 This library was created to allow the user to train his own semi-supervised prototype network and on its basis to tag audio files.
 
+To prepare the environment, run commands from the **setup.sh** file.
+
 To train your model, go to the *src* folder and then train choosen prototypical network
 ```
 cd src
@@ -20,7 +22,7 @@ predict.py --config_path config.yaml --model_path {.\trained_models\choosen_mode
 e.g. predict.py --config_path config.yaml --model_path .\trained_models\MUSIC.ckpt
 ```
 
-All cofiguration variables are located in the *config.yaml* file. 
+All cofiguration variables are located in the ***config.yaml*** file. 
 You can use 5 approaches to train your network: softkmeans, softkmeansdistractor, softkmeansmasked, music, musicdistractor. For each approach, the user has the option to train with a class of distractors, the number and quantity of which should be sat in the configuration file.
 
 There are 3 datasets to choose from: tiny_sol, gtzan, custom.

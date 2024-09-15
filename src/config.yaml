@@ -1,0 +1,26 @@
+model_type: 'music'
+# dataset_type: 'tiny_sol'
+dataset_type: 'gtzan'
+sample_rate: 16000
+duration: 1.0
+n_way: 3
+n_support: 5
+n_query: 3
+n_unlabeled: 10
+n_distractor: 0
+n_unlabeled_distractor: 0
+# n_distractor: 2
+# n_unlabeled_distractor: 5
+# n_train_episodes: 800
+# n_val_episodes: 50
+# num_workers: 1
+n_train_episodes: 8
+n_val_episodes: 5
+num_workers: 0
+log_every_n_steps: 1
+# val_check_interval: 50
+val_check_interval: 5
+dataset_path: '.\custom_dataset'
+predict_path: '.\audio'
+classes : ['bass', 'cello', 'clarinet']
+n_train_dataset: 5

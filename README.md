@@ -1,11 +1,12 @@
 MIR_master
 ==============================
 Praca magisterka - "Wykorzystanie uczenia semi-nadzorowanego w sieciach prototypowych dla zadania klasyfikacji muzyki"
+
 Master thesis "Application of semi-supervised learning in prototypical networks for music classification task"
 
 # Prototypical Network prediction APP
 
-This library was created to allow the user to train his own semi-supervised prototype network and on its basis to tag audio files.
+This library was created to allow the users to train their own semi-supervised prototype network and on its basis to tag audio files.
 
 To prepare the environment, run commands from the **setup.sh** file.
 
